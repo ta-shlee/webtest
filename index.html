@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고려사이버대학교 홍보 웹앱</title>
+    <!-- Bootstrap CSS 링크 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS (optional) -->
+    <style>
+        body {
+            padding-top: 60px;
+        }
+        .hero-section {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">고려사이버대학교</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">학교 소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#programs">학과 소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">학생 인터뷰</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">문의하기</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>온라인으로 미래를 여는 고려사이버대학교</h1>
+            <p>전문적인 학습, 유연한 교육 환경</p>
+            <a href="#programs" class="btn btn-primary btn-lg">학과 보기</a>
+        </div>
+    </section>
+
+    <!-- 학교 소개 섹션 -->
+    <section id="about" class="container">
+        <div class="section-title">
+            <h2>고려사이버대학교 소개</h2>
+            <p>고려사이버대학교는 온라인을 통해 전문적인 교육을 제공하며, 미래지향적인 교육 모델을 선도하고 있습니다.</p>
+        </div>
+        <p>우리 대학은 다양한 전공과 강의 프로그램을 통해 실무 중심의 교육을 제공합니다. 유연한 온라인 학습 환경으로 언제 어디서나 공부할 수 있습니다.</p>
+    </section>
+
+    <!-- 학과 소개 섹션 -->
+    <section id="programs" class="bg-light py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>우리 대학의 주요 학과</h2>
+                <p>학생들이 선택할 수 있는 다양한 전공과 커리큘럼</p>
+            </div>
+            <div class="row">
+                <!-- 학과 카드 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="ai-program.jpg" class="card-img-top" alt="AI 프로그램">
+                        <div class="card-body">
+                            <h5 class="card-title">AI학과</h5>
+                            <p class="card-text">인공지능과 데이터 과학 분야의 전문가로 성장할 수 있습니다.</p>
+                            <a href="#" class="btn btn-primary">더 알아보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="digital-marketing.jpg" class="card-img-top" alt="디지털 마케팅">
+                        <div class="card-body">
+                            <h5 class="card-title">디지털 마케팅</h5>
+                            <p class="card-text">디지털 환경에서 성공적인 마케팅 전략을 배우고, 현장에 바로 적용할 수 있습니다.</p>
+                            <a href="#" class="btn btn-primary">더 알아보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="bigdata.jpg" class="card-img-top" alt="빅데이터 분석">
+                        <div class="card-body">
+                            <h5 class="card-title">빅데이터 분석</h5>
+                            <p class="card-text">빅데이터를 분석하여 다양한 분야에서 인사이트를 도출하는 기술을 배웁니다.</p>
+                            <a href="#" class="btn btn-primary">더 알아보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 학생 인터뷰 섹션 -->
+    <section id="testimonials" class="container py-5">
+        <div class="section-title">
+            <h2>학생들의 목소리</h2>
+            <p>고려사이버대학교에서의 학습 경험을 공유하는 학생들의 인터뷰</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="student1.jpg" class="card-img-top" alt="학생1">
+                    <div class="card-body">
+                        <h5 class="card-title">김지훈 학생</h5>
+                        <p class="card-text">"고려사이버대학교에서 배운 디지털 마케팅 지식 덕분에 직장에서 바로 성과를 낼 수 있었습니다."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="student2.jpg" class="card-img-top" alt="학생2">
+                    <div class="card-body">
+                        <h5 class="card-title">이혜린 학생</h5>
+                        <p class="card-text">"온라인 수업의 유연성 덕분에 일을 하면서도 학위를 취득할 수 있어 매우 만족스럽습니다."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 문의하기 섹션 -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>문의하기</h2>
+                <p>고려사이버대학교에 대한 궁금한 사항을 문의해 주세요.</p>
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">이름</label>
+                        <input type="text" class="form-control" id="name" placeholder="이름을 입력하세요">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">이메일</label>
+                        <input type="email" class="form-control" id="email" placeholder="이메일을 입력하세요">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">메시지</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="문의 내용을 입력하세요"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">보내기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS & Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
